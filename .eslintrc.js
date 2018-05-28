@@ -1,6 +1,7 @@
 module.exports = {
     "env": {
         "browser": true,
+        "jasmine": true,
         "commonjs": true,
         "es6": true
     },
@@ -9,13 +10,10 @@ module.exports = {
         "sourceType": "module"
     },
     "rules": {
+        "no-console": "off",
         "indent": [
             "error",
             4
-        ],
-        "linebreak-style": [
-            "error",
-            "unix"
         ],
         "quotes": [
             "error",
